@@ -1,3 +1,12 @@
 import "./styles.css";
 
-console.log("it's running");
+import {renderProjects, renderTodos, renderProjectForm, renderTodoForm} from "./dom.js";
+
+
+
+renderProjectForm();
+renderProjects();
+renderTodoForm();
+renderTodos();
+
+
